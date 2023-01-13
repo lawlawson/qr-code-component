@@ -1,12 +1,52 @@
+/* Custom properties */
+
 :root {
-  --clr-white: hsl(0, 0%, 100%);
-  --clr-title: hsl(212, 45%, 89%);
-  --clr-background: hsl(220, 15%, 55%);
-  --clr-outline: hsl(218, 44%, 22%);
+  --clr-card-background: hsl(0, 0%, 100%);
+  --clr-page-background: hsl(212, 45%, 89%);
+  --clr-text: hsl(220, 15%, 55%);
+  --clr-title: hsl(218, 44%, 22%);
 
   --ff-accent:'Fraunces', serif;
   --ff-base:'Montserrat', sans-serif;
 
   --fw-regular: 400;
   --fw-bold: 700;
+}
+
+/* General styling */
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--ff-regular);
+  font-size: 0.875rem;
+  background-color: var(--clr-page-background);
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
+
+.card__background {
+  background: var(--clr-card-background);
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: var(--fw-bold);
+  color: var(--clr-title);
+  text-align: left;
+  font-size: 1.65rem;
+  margin: 30px 5px;
+}
+
+.description {
+  font-weight: var(--fw-regular);
+  color: var(--clr-text);
+  text-align: center;
 }
