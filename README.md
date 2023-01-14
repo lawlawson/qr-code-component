@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,8 +12,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -23,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://github.com/lawlawson/qr-code-component](https://github.com/lawlawson/qr-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://chipper-cajeta-70e2cf.netlify.app/](https://chipper-cajeta-70e2cf.netlify.app/)
 
 ## My process
 
@@ -43,5 +41,3 @@ This project was a good opportunity to practice working on semantic HTML, workin
 - Website - [Lawrence](https://lawlawson.dev)
 - Frontend Mentor - [@lawlawson](https://www.frontendmentor.io/profile/lawlawson)
 - Twitter - [@lawsoncodes](https://www.twitter.com/lawsoncodes)
-
-
