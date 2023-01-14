@@ -21,17 +21,17 @@ body {
   font-size: 0.875rem;
   background-color: var(--clr-page-background);
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   place-content: center;
   margin: 0;
 }
 
 .container {
   margin: auto;
-  width: 330px;
+  max-width: 330px;
   background: var(--clr-card-background);
   border-radius: 20px;
-  padding: 15px;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -39,8 +39,7 @@ body {
 img {
   margin: auto;
   display: flex;
-  height: 288px;
-  width: 288px;
+  max-width: 100%;
   border-radius: 10px;
 }
 
@@ -51,8 +50,7 @@ img {
   font-size: 1.3rem;
   line-height: 28px;
   margin: auto;
-  padding-top: 20px;
-  width: 288px;
+  padding-top: 1rem;
 }
 
 .description {
@@ -63,6 +61,6 @@ img {
   line-height: 19px;
   letter-spacing: 0.1875px;
   margin: auto;
-  padding: 20px 0;
-  width: 288px;
+  padding: 1.5rem 0;
+  max-width: 100%;
 }
