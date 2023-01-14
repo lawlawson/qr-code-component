@@ -20,33 +20,56 @@ body {
   font-weight: var(--ff-regular);
   font-size: 0.875rem;
   background-color: var(--clr-page-background);
-  display: grid;
+  display: flex;
+  height: 100vh;
   place-content: center;
-  margin: 1rem;
+  /* align-items: center; */
+  margin: 0;
 }
 
 .card__background {
+  margin: auto;
+  width: 330px;
   background: var(--clr-card-background);
-  border-radius: 10px;
-  padding: 1.5rem 1rem;
-  overflow: hidden;
-  max-width: 600px;
+  border-radius: 20px;
+  /* padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4rem; */
+  padding: 15px;
+  /* overflow: hidden; */
+  /* max-width: 600px; */
+  justify-content: center;
+  align-items: center;
 }
 
 img {
+  margin: auto;
+  display: flex;
+  height: 288px;
+  width: 288px;
   border-radius: 10px;
 }
 
 .title {
   font-weight: var(--fw-bold);
   color: var(--clr-title);
-  text-align: left;
-  font-size: 1.65rem;
-  margin: 30px 5px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+  margin: auto;
+  padding-top: 20px;
+  width: 288px;
 }
 
 .description {
   font-weight: var(--fw-regular);
   color: var(--clr-text);
   text-align: center;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.1875px;
+  margin: auto;
+  padding: 20px 0;
+  width: 288px;
 }
